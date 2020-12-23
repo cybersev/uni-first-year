@@ -1,0 +1,2 @@
+E:\C++ code\howlongalive\howlongalive\Debug\howlongalive.exe
+E:\C++ code\howlongalive\howlongalive\Debug\howlongalive.pdb

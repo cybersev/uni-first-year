@@ -1,0 +1,2 @@
+E:\C++ code\peas\peas\Debug\peas.exe
+E:\C++ code\peas\peas\Debug\peas.pdb

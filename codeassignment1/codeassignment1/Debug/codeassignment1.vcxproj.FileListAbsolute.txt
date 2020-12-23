@@ -1,0 +1,2 @@
+E:\C++ code\codeassignment1\codeassignment1\Debug\codeassignment1.exe
+E:\C++ code\codeassignment1\codeassignment1\Debug\codeassignment1.pdb

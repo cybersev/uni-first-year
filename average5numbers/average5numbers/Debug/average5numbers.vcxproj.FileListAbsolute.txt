@@ -1,0 +1,2 @@
+E:\C++ code\average5numbers\average5numbers\Debug\average5numbers.exe
+E:\C++ code\average5numbers\average5numbers\Debug\average5numbers.pdb

@@ -1,0 +1,2 @@
+E:\C++ code\assignmentweighting\assignmentweighting\Debug\assignmentweighting.exe
+E:\C++ code\assignmentweighting\assignmentweighting\Debug\assignmentweighting.pdb

@@ -1,0 +1,2 @@
+E:\C++ code\fixthiscode\fixthiscode\Debug\fixthiscode.exe
+E:\C++ code\fixthiscode\fixthiscode\Debug\fixthiscode.pdb

@@ -1,0 +1,2 @@
+E:\C++ code\Coding Joke\CodingJoke\Debug\CodingJoke.exe
+E:\C++ code\Coding Joke\CodingJoke\Debug\CodingJoke.pdb

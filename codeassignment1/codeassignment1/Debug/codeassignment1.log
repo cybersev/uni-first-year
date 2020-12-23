@@ -1,0 +1,6 @@
+﻿  codeassignment1.cpp
+E:\C++ code\codeassignment1\codeassignment1\codeassignment1.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+E:\C++ code\codeassignment1\codeassignment1\codeassignment1.cpp(49,23): warning C4018: '<': signed/unsigned mismatch
+E:\C++ code\codeassignment1\codeassignment1\codeassignment1.cpp(67): warning C4715: 'check_pass': not all control paths return a value
+E:\C++ code\codeassignment1\codeassignment1\codeassignment1.cpp(81): warning C4715: 'check': not all control paths return a value
+  codeassignment1.vcxproj -> E:\C++ code\codeassignment1\codeassignment1\Debug\codeassignment1.exe
