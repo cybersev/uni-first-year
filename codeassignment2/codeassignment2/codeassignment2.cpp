@@ -25,11 +25,11 @@ int reverse(int n) {
     return reversedNo;
 }
 
-int dayofweek(int d, int m, int y)// this is used to calculate the day the user was born and store it in a variable
+int dayofweek(int d, int m, int y) //Calculating the day the user was born and store it in a variable
 {
-    int t[] = { 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4 }; //This is Tomohiko Sakamoto's Algorithm
+    int t[] = {0,3,2,5,0,3,5,1,4,6,2,4}; //This is Tomohiko Sakamoto's Algorithm
     y -= m < 3;
-    return (y + y / 4 - y / 100 + y / 400 + t[m - 1] + d) % 7;
+    return (y+y / 4-y / 100+y / 400 + t[m - 1] + d) % 7;
 }
 int passwordcheck(string passw) { //this is the code to store the password variables of capital letters, numbers and symbols to be used to test the password strength later
 
