@@ -65,7 +65,7 @@ int check(string message) {
         }
         cin.clear();
         cin.ignore();
-        cout << "Must be a whole/postive number" << endl;
+        cout << "Input must be a positive integer" << endl;
     }
 }
 
