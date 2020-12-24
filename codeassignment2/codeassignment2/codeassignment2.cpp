@@ -10,7 +10,7 @@ using namespace std;    //using the standard namespace
 int vowels(string fullname) { //This bit of the code stores the name variable and insures the pin knows how many vowels are in the name and the length of the name
     int count = 0;
     for (int i = 0; i < fullname.length(); i++) 
-        if (fullname[i] == 'a' || fullname[i] == 'e' || fullname[i] == 'i' || fullname[i] == 'o' || fullname[i] == 'u')//This is for generating the unique pin based on the vowels in the username
+        if (fullname[i] =='a' || fullname[i] =='e' || fullname[i] =='i' || fullname[i] =='o' || fullname[i] =='u')//This is for generating the unique pin based on the vowels in the username
             count++;
     return count;
 }
@@ -69,7 +69,7 @@ int check(string message) {
     }
 }
 
-int main()// The Starting sequence of the app
+int main() //The starting sequence of the app
 {
 
     string fullname;
@@ -88,7 +88,7 @@ int main()// The Starting sequence of the app
     day = dayofweek(day, month, year);
 
     string week[7] = { "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday" }; //initialising "week" array with the days
-    cout << "You where born on a " << week[day] << endl;                                        //Telling the user what day of the week they were born on
+    cout << "You were born on a " << week[day] << endl;                                        //Telling the user what day of the week they were born on
 
     int count = vowels(fullname);           //Counting the vowels in the name to generate pin
     int reverse_age = reverse(age);         //Reversing the age to generate pin
@@ -98,9 +98,9 @@ int main()// The Starting sequence of the app
     printf("%04d\n", pin);
 
     int account, i = 3, check = 1;
-    cout << "Enter Enrollment number: ";     //Telling the user to enter their enrollment number again for the account
+    cout << "Please enter your Enrollment number: ";     //Telling the user to enter their enrollment number again for the account
     cin >> account;                         //Storing into account variable
-    cout << "Enter pin: ";
+    cout << "Please enter your pin: ";
     cin >> pin;
 
     while (i--) { //While loop for entering enrollment number and pin until it is correct
@@ -109,14 +109,14 @@ int main()// The Starting sequence of the app
             break;
 
         cout << "The enrollment number or pin is incorrect! Try again.\n";  //Tells the user that there was an issue
-        cout << "Enter Enrollment number:";
+        cout << "Please enter your Enrollment number: ";
         cin >> account;
-        cout << "Enter pin:";
+        cout << "Please enter your pin: ";
         cin >> pin;
     }
 
     if (i + 1 == 0) {
-        cout << "Session ended 3 trials done";
+        cout << "3 Attempts made";
         return 0;
     }
     string username, temp;
@@ -139,11 +139,8 @@ int main()// The Starting sequence of the app
         else {
             cout << "Medium strength password try again \n";
         }
-        cout << "Your password should be a minimum of 18 characters \n";
-        cout << "Your password should contain a minimum of 4 upper case letters \n";
-        cout << "Your password should contain a minimum of 3 numbers \n";
-        cout << "Your password should contian a minimum of 3 symbols \n";
-        cout << "Enter password:";
+        cout << "The Password must contain 18 characters, 3 upper case, 3 numbers and 3 symbols! \n";
+        cout << "Please Make a new strong password: ";
         cin >> password;
         check = passwordcheck(password); //Repeating the check after telling them what they need to include to be sure
     }
