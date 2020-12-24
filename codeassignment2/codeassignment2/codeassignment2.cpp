@@ -120,7 +120,7 @@ int main() //The starting sequence of the app
         return 0;
     }
     string username, temp;
-    cout << "Please make a new username: "; //This is telling the user that they have to create a username which they will use to login later
+    cout << "Please make a new username (no spaces allowed!): "; //This is telling the user that they have to create a username which they will use to login later
     cin >> username;                       //Storing username
 
     string password;
